@@ -143,8 +143,12 @@ section {
     clear: both;
 }
 
-.col-2 {
-    @include equalSpaced(4, 4%);
+.col-2{
+    width:50%;
+    float:left;
+    padding-bottom: 2rem;
+    border-left:1px solid #3a5E63;
+    margin-bottom: 2rem;
 }
 
 footer {
